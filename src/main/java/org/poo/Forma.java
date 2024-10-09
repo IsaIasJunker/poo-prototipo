@@ -1,4 +1,4 @@
 package org.poo;
 
-abstract class Forma {
+abstract class Forma implements Clonable {
 }

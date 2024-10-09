@@ -1,5 +1,5 @@
-package org.poo;
 
+package org.poo;
 public class Circulo extends Forma {
     private double radio;
 
@@ -18,7 +18,7 @@ public class Circulo extends Forma {
     }
 
     @Override
-    public Forma clone(){
+    public Circulo clonar(){
         return new Circulo(radio);
     }
 
